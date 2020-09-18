@@ -2,30 +2,30 @@
 - A small C# console application to create a unique hardware hash.
 - Requires .NET Framework 4.8!
 
-- Following details are used in order to calculate a id:
-
 ___________________________________________________________________________
 
-• BIOS = Win32_BIOS, Manufacturer, SMBIOSBIOSVersion, IdentificationCode.
+- Following details are used in order to calculate a id:
 
-• CPU  = Win32_Processor, ProcessorId, UniqueId, Name.
+â€¢ BIOS = Win32_BIOS, Manufacturer, SMBIOSBIOSVersion, IdentificationCode.
 
-• HDD  = Win32_DiskDrive, Model, TotalHeads.
+â€¢ CPU  = Win32_Processor, ProcessorId, UniqueId, Name.
 
-• GPU  = Win32_VideoController, DriverVersion, Name.
+â€¢ HDD  = Win32_DiskDrive, Model, TotalHeads.
 
-• MAC  = Win32_NetworkAdapterConfiguration, MACAddress.
+â€¢ GPU  = Win32_VideoController, DriverVersion, Name.
 
-• OS   =  Win32_OperatingSystem, SerialNumber, Name.
+â€¢ MAC  = Win32_NetworkAdapterConfiguration, MACAddress.
 
-• SCSI = Win32_SCSIController, DeviceID, Name.
+â€¢ OS   =  Win32_OperatingSystem, SerialNumber, Name.
+
+â€¢ SCSI = Win32_SCSIController, DeviceID, Name.
 
 ___________________________________________________________________________
 
 - After build, the following files must be in the same directory otherwise it will not work!
 
-• Figgle.dll
+â€¢ Figgle.dll
 
-• Figgle.xml
+â€¢ Figgle.xml
 
-• HWID Builder.exe
+â€¢ HWID Builder.exe
