@@ -18,7 +18,7 @@ namespace HWID_Builder
         {
             Console.BufferHeight = 513;
             Console.BufferWidth = 1300;
-            Console.Title = "Hwid Builder - 7 hardware features | Memoryhackers.org - ByYasin";
+            Console.Title = "Hwid Builder - 7 hardware features | Memoryhackers.org | ByYasin";
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine(FiggleFonts.Standard.Render("Memoryhackers . org"));
             //println(null);
