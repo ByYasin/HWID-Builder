@@ -30,7 +30,7 @@ namespace HWID_Builder
             println("(ENG) Generated Hardware ID has been copied to clipboard! | (TR) Oluşturulan Donanım Kimliği panoya kopyalandı!");
             println(null);
             Console.ForegroundColor = ConsoleColor.Red;
-            println("(ENG) Press any key to exit... | (TR) Çıkmak için herhangi bir tuşa basın...");
+            println("(ENG) Press any key to exit... | (TR) Çıkmak için herhangi bir tuşa basınız...");
             println(null);
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine(FiggleFonts.Standard.Render("ByYasin"));
